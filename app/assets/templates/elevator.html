@@ -1,0 +1,39 @@
+<section class="result">
+    <p class="is-center">Andar atual : {{andar}}</p>
+    <p class="is-center">Capacidade foi excedida? <span>{{ qtd > capacidadeMax ? 'S' : 'N' }}</span></p>
+    <p class="is-center">Quantidade de pessoas no elevador : <span>{{ qtd }}</span></p>
+    <p class="is-center" ng-if="ghostsMaybe()">Saíram mais pessoas do que entraram. Fantasmas talvez? :o</p>
+    <p class="is-center">Capacidade máxima do elevador : {{capacidadeMax}}</p>
+</section>
+
+<section class="card">
+    <h6 class="card-title">
+        Entrando : <strong>{{ enter }}</strong> pessoas
+    </h6>
+    <h6 class="card-title">
+        Saindo : <strong>{{ out }} </strong> pessoas
+    </h6>
+
+    <div class="inputGroup">
+        <label for="out" class="inputGroup-label">
+            Saída de pessoas
+        </label>
+        <input type="number" class="inputGroup-field" ng-model="out" id="out">
+    </div>
+
+    <div class="inputGroup">
+        <label for="enter" class="inputGroup-label">
+            Entrada de pessoas
+        </label>
+        <input type="number" class="inputGroup-field" ng-model="enter" id="enter">
+    </div>
+    <div class="inputGroup">
+        <label for="andar" class="inputGroup-label">
+            Andar
+        </label>
+        <input type="number" class="inputGroup-field" ng-model="andar" id="andar">
+    </div>
+    <button class="btn" ng-click="calculateElevator()">
+        Verificar
+    </button>
+</section>

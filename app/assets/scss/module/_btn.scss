@@ -1,0 +1,15 @@
+.btn {
+    background-color: $blue;
+    color: #FFF;
+    cursor: pointer;
+    font-family: $font;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all .5s ease-in;
+    width: 100%;
+    &:hover {
+        background-color : $navy-blue;
+    }
+}

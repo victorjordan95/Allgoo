@@ -1,0 +1,7 @@
+.footer {
+    @include centerFlex;
+    background-color: $navy-blue;
+    color: #FFF;
+    height: 44px;
+    text-align: center;
+}
