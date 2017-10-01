@@ -1,4 +1,4 @@
-# Quero Front - Personal Tasks
+# Allgoo
 
 Nesse projeto, foi desenvolvido um verificador se a capacidade do elevador fora passada ou não, utilizando AngularJS, Sass como pré-processador de CSS.
 
@@ -19,7 +19,7 @@ Para rodar é necessário ter gulp instalado globalmente
 
 ### Agradecimentos 
 
-Agreço a Allgoo pela oportunidade de poder desenvolver o teste! :D
+Agradeço a Allgoo pela oportunidade de poder desenvolver o teste! :D
 
 _So Long, and Thanks for All the Fish_
 
